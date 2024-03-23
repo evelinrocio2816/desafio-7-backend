@@ -1,0 +1,378 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(''); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:  underline double 2px blueviolet;
+}
+#chatBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+#messagesLogs {
+   
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-right: 20%;
+    margin-left: 10%;
+}
+
+.messages {
+    margin-bottom: 10px;
+}
+
+.messages span {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.messages span.username {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.messages span.message {
+    color: #28A745;
+}
+
+#messagesLogs::-webkit-scrollbar {
+    width: 8px;
+}
+
+#messagesLogs::-webkit-scrollbar-thumb {
+    background-color: #28A745;
+    border-radius: 4px;
+}
+
+#messagesLogs::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+#messagesLogs::-webkit-scrollbar-thumb:hover {
+    background-color: #218838;
+}
+
+
+
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    display: flex; /* Flexbox para alinear elementos */
+    justify-content: space-between; /* Alinear elementos a los extremos */
+    align-items: center; /* Centrar verticalmente los elementos */
+  }
+  
+  /* Estilos para el logo */
+  .logo {
+    font-size: 24px; /* Tamaño del texto del logo */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: #fff; /* Color del texto del logo */
+  }
+  
+  /* Estilos para la navegación */
+  nav ul {
+    list-style-type: none; /* Quitar los puntos de la lista */
+    margin: 0; /* Quitar el margen */
+    padding: 0; /* Quitar el relleno */
+  }
+  
+  nav ul li {
+    display: inline-block; /* Mostrar elementos en línea */
+    margin-right: 20px; /* Espaciado entre elementos */
+  }
+  
+  .navLink {
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: #fff; /* Color del texto del enlace */
+  }
+  
+  .navLink:hover {
+    text-decoration: underline; /* Subrayar enlace al pasar el mouse */
+  }
+  
+/* Product List Styles */
+.card-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-items:stretch;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+  }
+  
+  .card img {
+    width: 200px;
+    height: 50%;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .card h3:last-of-type {
+    color: #007bff;
+  }
+  
+  .card a {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .card a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Pagination Styles */
+  .container-pages {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10%;
+  }
+  
+  .container-pages a {
+    margin: 0 5px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .container-pages a:hover {
+    text-decoration: underline;
+  }
+  
+  .container-pages h4 {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  /*ESTILOS DEL FORMULARIO*/
+
+  .container-Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-register {
+    width: 500px; /* Ancho del formulario */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-register h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-register form {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.form-register input {
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-register button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.form-register button:hover {
+    background-color: #0056b3;
+}
+
+/*Login*/
+.container-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.container-loginForm {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-loginForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-loginForm label {
+  margin-bottom: 5px;
+}
+
+.container-loginForm input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container-loginForm button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container-loginForm button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.btnLogin {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btnLogin p {
+  margin-bottom: 10px;
+}
+
+.btnLogin button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnLogin button:hover {
+  background-color: #555;
+}
+
+
+/*PROFILE*/
+h4{
+  display: flex;
+  justify-content: center;
+ text-decoration: 2px solid underline red;
+}
+.container-profile {
+  max-width: 600px;
+ margin-left: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-profile h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container-profile p {
+  margin-bottom: 10px;
+  margin-left: 10%;
+}
+
+.container-profile button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10%;
+}
+
+.container-profile button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container-profile button:hover {
+  background-color: #0056b3;
+}
+
+/*FOOTER*/
+
+/* Estilos para el footer */
+footer {
+  background-color: #09121a; /* Color de fondo */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto al centro */
+  position: fixed; /* Fijar el footer en la parte inferior de la página */
+  width: 100%; /* Ancho completo */
+  bottom: 0; /* Alinear en la parte inferior */
+}
+
+/* Estilos para el párrafo dentro del footer */
+footer p {
+  margin: 0; /* Eliminar el margen por defecto */
+  font-size: 14px; /* Tamaño de fuente */
+  color: #dfc3c3; /* Color del texto */
+}

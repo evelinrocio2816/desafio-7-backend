@@ -1,0 +1,223 @@
+[
+    {
+      "id": 1,
+      "title": "iPhone 13",
+      "price": 999.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdIIcVr1plov42S7NwDCM6taVIJaqlvv2ZvxKDRLTMjA&s",
+      "description": "El último modelo de iPhone con increíbles características.",
+      "code": "APL-IPH-13",
+      "stock": 50,
+      "status": true,
+      "category": "smartphone"
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy Book Pro",
+      "price": 1299.99,
+      "image": "https://buenosairesimport.com/4931-large_default/samsung-galaxy-book-pro-360-15.jpg",
+      "description": "Potente laptop para tus necesidades profesionales y de entretenimiento.",
+      "code": "SAM-GBP",
+      "stock": 30,
+      "status": true,
+      "category": "laptop"
+    },
+    {
+      "id": 3,
+      "title": "Dell UltraSharp U2720Q",
+      "price": 449.99,
+      "image": "https://createdtech.com/wp-content/uploads/2021/05/dell-u2720q-review.jpg",
+      "description": "Monitor 4K para una experiencia visual impresionante.",
+      "code": "DEL-U2720Q",
+      "stock": 20,
+      "status": true,
+      "category": "monitor"
+    },
+    {
+      "id": 4,
+      "title": "Sony PlayStation 5",
+      "price": 499.99,
+      "image": "https://as02.epimg.net/meristation/imagenes/2020/06/11/videos/1591911132_318262_1591911264_noticia_normal.jpg",
+      "description": "La consola de próxima generación para juegos de alta calidad.",
+      "code": "SNY-PS5",
+      "stock": 15,
+      "status": true,
+      "category": "playStation"
+    },
+    {
+      "id": 5,
+      "title": "LG Gram 17",
+      "price": 1499.99,
+      "image": "https://www.lg.com/es/images/ordenadores/md07562991/gallery/D-005.jpg",
+      "description": "Laptop ultraligera con una pantalla grande para mayor productividad.",
+      "code": "LG-G17",
+      "stock": 25,
+      "status": true,
+      "category": "laptop"
+    },
+  
+    {
+      "id": 6,
+      "title": "Logitech MX Master 3",
+      "price": 99.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5VHmV7VTS-dIWBhIMYn8eGYPcbIRC23orXDaZ2tJXiQ&s",
+      "description": "Ratón avanzado para mejorar tu experiencia de trabajo.",
+      "code": "LOG-MX3",
+      "stock": 40,
+      "status": true,
+      "category": "accesorio"
+    },
+    {
+      "id": 7,
+      "title": "Bose QuietComfort 35 II",
+      "price": 299.99,
+      "image": "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35_ii/images/qc35_ii_product_page_buy_panel_1x1.psd/jcr:content/renditions/cq5dam.web.320.320.png",
+      "description": "Audífonos con cancelación de ruido para una experiencia musical inmersiva.",
+      "code": "BOSE-QC35",
+      "stock": 18,
+      "status": true,
+      "category": "audio"
+    },
+    {
+      "id": 8,
+      "title": "Canon EOS R5",
+      "price": 3799.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxnnMLDSmQUPV7MCFgm6LxPTMoGCCkK4Jzj8xivQYsbg&s",
+      "description": "Cámara digital de alta resolución para fotografía y video profesional.",
+      "code": "CAN-EOSR5",
+      "stock": 12,
+      "status": true,
+      "category": "cámara"
+    },
+    {
+      "id": 9,
+      "title": "Asus ROG Strix Scar 17",
+      "price": 2299.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFIVZaFouoPtocLlkQMxdOy3_IEaNAdpssPnwgp5VF2w&s",
+      "description": "Laptop para gaming con potentes especificaciones para juegos intensivos.",
+      "code": "ASUS-ROG-SCAR17",
+      "stock": 8,
+      "status": true,
+      "category": "gaming"
+    },
+    {
+      "id": 10,
+      "title": "Fitbit Charge 5",
+      "price": 179.99,
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/08/fitbit-charge-5.png?fit=1840%2C1226&quality=50&strip=all&ssl=1",
+      "description": "Rastreador de actividad para monitorizar tu salud y forma física.",
+      "code": "FIT-CHARGE5",
+      "stock": 35,
+      "status": true,
+      "category": "dispositivo ponible"
+    },
+    {
+      "id": 11,
+      "title": "Apple Watch Series 7",
+      "price": 399.99,
+      "image": "https://cdn.shopify.com/s/files/1/0024/9803/5810/products/6181510_sa_160_1440x1440.jpg?v=1643414251",
+      "description": "El último reloj inteligente de Apple con funciones avanzadas de salud y fitness.",
+      "code": "APL-WATCH7",
+      "stock": 20,
+      "status": true,
+      "category": "dispositivo ponible"
+  },
+  {
+      "id": 12,
+      "title": "Microsoft Surface Laptop Studio",
+      "price": 1599.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzw8Ntr0kr8OJkgv86e8BhELrD9tNz67e9rA&usqp=CAU",
+      "description": "Portátil versátil con diseño innovador y pantalla táctil deslizable.",
+      "code": "MSFT-SFLS",
+      "stock": 15,
+      "status": true,
+      "category": "laptop"
+  },
+  {
+      "id": 13,
+      "title": "Samsung Odyssey G7",
+      "price": 699.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/latam/odyssey-g7-c32g75tqsi-frontblack-378373906?$720_576_PNG$",
+      "description": "Monitor curvo para gaming con alta tasa de refresco y resolución QHD.",
+      "code": "SAM-ODY-G7",
+      "stock": 10,
+      "status": true,
+      "category": "monitor"
+  },
+  {
+      "id": 14,
+      "title": "Sony WH-1000XM4",
+      "price": 349.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71o8Q5XJS5L._AC_SL1500_.jpg",
+      "description": "Auriculares inalámbricos con cancelación de ruido líder en su clase.",
+      "code": "SNY-WH1000XM4",
+      "stock": 25,
+      "status": true,
+      "category": "audio"
+  },
+  {
+      "id": 15,
+      "title": "Nikon Z6 II",
+      "price": 1999.99,
+      "image": "https://www.nikon.es/binaries/content/gallery/nikon_es_ES/nikon_products/cameras/mirrorless/z_6_ii/gallery/z_6_ii_06_en_es.jpg",
+      "description": "Cámara mirrorless de fotograma completo con capacidad de grabación de video 4K.",
+      "code": "NIK-Z6II",
+      "stock": 8,
+      "status": true,
+      "category": "cámara"
+  },
+  {
+      "id": 16,
+      "title": "Razer BlackWidow V3",
+      "price": 149.99,
+      "image": "https://assets.razerzone.com/eeimages/products/20138/razer-blackwidow-v3-tenkeyless-wrist-rest-light-image.png",
+      "description": "Teclado mecánico para gaming con interruptores Razer Green.",
+      "code": "RZR-BWV3",
+      "stock": 20,
+      "status": true,
+      "category": "accesorio"
+  },
+  {
+      "id": 17,
+      "title": "GoPro HERO10 Black",
+      "price": 499.99,
+      "image": "https://m.media-amazon.com/images/I/61kfMg5ENoL._AC_SX569_.jpg",
+      "description": "Cámara de acción con capacidad de grabación de video 5.3K y fotos de 23MP.",
+      "code": "GOP-HERO10",
+      "stock": 15,
+      "status": true,
+      "category": "cámara"
+  },
+  {
+      "id": 18,
+      "title": "HP Spectre x360",
+      "price": 1299.99,
+      "image": "https://store.hp.com/app/assets/images/product/3PZ74AV_1/center_facing.png?_=1613641937105&imwidth=1024&imdensity=1",
+      "description": "Portátil convertible premium con diseño elegante y pantalla táctil 4K.",
+      "code": "HP-SPECTRE",
+      "stock": 12,
+      "status": true,
+      "category": "laptop"
+  },
+  {
+      "id": 19,
+      "title": "JBL Flip 5",
+      "price": 119.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71416wnaMsL._AC_SL1500_.jpg",
+      "description": "Altavoz portátil resistente al agua con sonido potente y batería de larga duración.",
+      "code": "JBL-FLIP5",
+      "stock": 30,
+      "status": true,
+      "category": "audio"
+  },
+  {
+      "id": 20,
+      "title": "Garmin Fenix 7",
+      "price": 699.99,
+      "image": "https://buy.garmin.com/shared/ecommerce-media/catalog/product/010-02562-02/large.png",
+      "description": "Reloj deportivo multideporte con GPS, monitor de frecuencia cardíaca y mapas.",
+      "code": "GRM-FENIX7",
+      "stock": 20,
+      "status": true,
+      "category": "dispositivo ponible"
+  }
+  ]
