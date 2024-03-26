@@ -1,10 +1,26 @@
 const express = require("express");
 const router = express.Router();
-
 const CartsManager = require("../Dao/database/Cart-manager.db.js");
-const cartsManager = new CartsManager();
-const CartModels= require("../Dao/models/cart.models.js")
 
+const cartsManager = new CartsManager();
+
+
+router.get("/", cartsManager.listCartProducts)
+router.post("/", cartsManager.createCart)
+router.post("/", cartsManager.addProductToCart)
+
+router.put("/", cartsManager.updateCartProducts)
+router.put("/", cartsManager.updateQuantityInCart)
+
+router.delete("/", cartsManager.deleteProductFromCart)
+router.delete("/", cartsManager.deleteCart)
+
+
+
+
+
+module.exports = router;
+/*
 //1)- Ruta para crear un nuevo carts
 
 router.post("/", async (req, res) => {
@@ -19,7 +35,6 @@ router.post("/", async (req, res) => {
 });
 
 
-//Routes
 //2)-lista de productos de cada carts
 
 router.get("/:cid", async (req, res) => {
@@ -53,7 +68,6 @@ router.post("/:cid/product/:pid", async (req, res) => {
     if (isNaN(quantity) || quantity <= 0 || !Number.isInteger(quantity)) {
       return res.status(400).json({ status: "error", message: "La cantidad debe ser un número entero positivo." });
     }
-
 
     const updateCart = await cartsManager.productsAddToCarts(cartId, productId, quantity);
     res.status(200).json({ status: "success", data: updateCart.products });
@@ -154,6 +168,5 @@ router.delete('/:cid', async (req, res) => {
       });
   }
 });
+*/
 
-
-module.exports = router;

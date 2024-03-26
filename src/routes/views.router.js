@@ -53,8 +53,6 @@ router.get("/chat", async (req, res) => {
   });
 //                    Ruta de Productos
 
-
-
 router.get("/products", async (req, res) => {
    try {
       const { page=4 , limit=5 } = req.query;

@@ -1,38 +1,23 @@
-const express =require("express")
+const express =require("express");
+const ProductManager = require("../Dao/database/Product-manager.db");
+const productManager = new ProductManager()
 const router =  express.Router()
-const fs = require('fs').promises;
 
 
-const ProductManager = require("../Dao/database/Product-manager.db.js");
-const productManager =new ProductManager()
+router.get("/",productManager.getProducts)
+router.put("/", productManager.updateProduct)
+router.post("/", productManager.addProduct)
+router.delete("/", productManager.deletProducts)
+router.get("/", productManager.getProductList)
+router.get("/", productManager.getProductId)
 
-//Router
 
-router.get("/", productManager.getProducts);
-router.post("/", productManager.postProducts)
+
+
+
 
 module.exports= router;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*const express =require("express")
-const router =  express.Router()
+/*
 const fs = require('fs').promises;
 
 
@@ -40,6 +25,7 @@ const ProductManager = require("../Dao/database/Product-manager.db.js");
 const productManager =new ProductManager()
 
 //Router
+//OBTENER PRODUCTOS
 router.get("/", async (req, res) => {
   try {
       const { limit , page , sort, query } = req.query;
@@ -74,12 +60,6 @@ router.get("/", async (req, res) => {
 });
 
 
-
-
-
-
-
-
 //Agregar Productos
 
 router.post("/products", async (req, res) => {
@@ -98,7 +78,7 @@ router.post("/products", async (req, res) => {
     res.status(500).json({ status: "error", message: "Error interno del servidor" });
   }
 });
-
+//  ACTUALIZAR PRODUCTOS POR ID
 router.put("/products/:pid", async (req, res) => {
   try {
       const productIdToUpdate = req.params.pid;
@@ -118,10 +98,6 @@ router.put("/products/:pid", async (req, res) => {
       }
 
 
-
-
-
-
       // Actualizar el producto
       await productManager.upDateProducts(productIdToUpdate, updatedProductData);
       res.json({ status: "success", message: "Producto actualizado" });
@@ -130,11 +106,6 @@ router.put("/products/:pid", async (req, res) => {
       res.status(500).json({ status: "error", message: "Error interno del servidor" });
   }
 });
-
-
-
-
-
 
 
 
@@ -194,6 +165,6 @@ router.delete("/products/:pid", async (req, res) => {
       res.status(500).json({error:"error interno del servidor"})
     }
   })
-  
+  */
  
-  module.exports= router;*/
+ 
